@@ -17,11 +17,35 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  /* color: rgb(var(--foreground-rgb)); */
+  /* background: linear-gradient( 
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb));*/
 }
+
+.bg-primary-color {
+  background-color: #006682;
+}
+.color-yellow {
+  color: #f5dea4;
+}
+.primary-color {
+  color: #006682;
+}
+
+.color-secondary {
+  color: #d57f07;
+}
+
+.bg-color-yellow {
+  background-color: #f5dea4;
+}
+
+.linkHeader:hover {
+  background-color: #f5dea455;
+  color: #f5dea4;
+}
+
